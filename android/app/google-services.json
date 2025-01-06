@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "16067000639",
+    "project_id": "dharatal-foundation",
+    "storage_bucket": "dharatal-foundation.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16067000639:android:b4b9278c10c438b567bb8a",
+        "android_client_info": {
+          "package_name": "com.dharatal.dharatal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16067000639-ipds7aoojf3a4kv7ghk79nrr8vu5plqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgLIJ8Pn4hL78fqn-c6BALyklRVreFOog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16067000639-ipds7aoojf3a4kv7ghk79nrr8vu5plqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
