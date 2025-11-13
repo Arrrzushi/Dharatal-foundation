@@ -1,143 +1,118 @@
-# 🏥 Dharatal Foundation Mobile App
+# Dharatal Foundation Mobile App
+
+**Official Mobile Application for Dharatal Foundation**  
+**Website: https://dharatalfoundation.com/**
 
 <div align="center">
 
-![Flutter](https://img.shields.io/badge/Flutter-3.7.2+-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-3.7.2+-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)
-![Play Store](https://img.shields.io/badge/Play%20Store-Coming%20Soon-orange?style=for-the-badge)
+![App Screenshots] <img width="716" height="1600" alt="image" src="https://github.com/user-attachments/assets/1b6205e3-6037-4865-acc8-223ed7393d10" />
 
-**A modern, production-ready Flutter mobile application for Dharatal Foundation - serving the underprivileged through excellence in healthcare.**
+![Appointment Booking] <img width="716" height="1600" alt="image" src="https://github.com/user-attachments/assets/571e5645-cb90-485c-91d4-0b405b16d941" />
 
-[🌐 Website](https://dharatalfoundation.com/) • [📧 Email](mailto:info@dharatalfoundation.com) • [📱 Phone](tel:+919910832267)
+![Founder Profile] ![Uploading image.png…]()
+
 
 </div>
 
----
+## Overview
 
-## 📖 About
+This is the official mobile application for **Dharatal Foundation**, a healthcare organization dedicated to providing quality medical services to underserved communities. The app serves as a digital gateway to the foundation's healthcare programs, appointment booking system, and community outreach initiatives.
 
-Dharatal Foundation is a healthcare organization established 14 years ago, committed to providing comprehensive and compassionate healthcare services to underserved communities. This mobile application brings the foundation's services directly to users' fingertips, enabling easy access to healthcare programs, appointment booking, and information about the foundation's initiatives.
+**Official Website: https://dharatalfoundation.com/**
 
-### 🎯 Mission
+## About Dharatal Foundation
 
-*"Serving the underprivileged of society through excellence"* - We provide quality medical care to all sections of society, regardless of their ability to pay.
+Dharatal Foundation has been serving the community for 14 years with a mission to provide comprehensive and compassionate healthcare services to all sections of society, regardless of economic status.
 
-### 🌟 Vision
+### Our Mission
+"Serving the underprivileged of society through excellence" - Providing quality medical care to all sections of society, regardless of their ability to pay.
 
-To become a beacon of hope and healing for communities in need, ensuring access to high-quality healthcare services for all.
+### Our Vision
+A world where quality healthcare is accessible to all, creating healthier and more prosperous communities.
 
----
+## Founder & Leadership
 
-## ✨ Features
+**A.K Jain** - Founder & Director  
+*Former Director P.F.C (Government of India)*
 
-### 🏠 Home Screen
-- **Hero Section** with foundation introduction
-- **Statistics Dashboard** showcasing years of service, programs, and patients served
-- **Program Overview** with quick access to all healthcare services
-- **Call-to-Action** sections for engagement
+A.K Jain has dedicated his life to serving the community through healthcare initiatives. With years of experience and a compassionate heart, he leads the foundation in its mission to provide quality healthcare to all.
 
-### 📋 Programs
-- **Physiotherapy Centre** (River Park, Baghpat)
-  - Mobility assessments
-  - Posture correction
-  - Pain management
-  - Rehabilitation therapy
-  - Exercise prescription
+## Key Features
 
+### Home Screen
+- Foundation introduction and welcome message
+- Overview of healthcare services and programs
+- Quick access to all application features
+
+### Appointment Booking System
+- Professional healthcare consultation booking
+- Comprehensive form with validation:
+  - Full Name
+  - Phone Number  
+  - Email Address
+  - Service Required (General Consultation)
+  - Date Selection
+  - Time Selection
+
+### Healthcare Programs
+- **Physiotherapy Centre** at River Park, Baghpat
 - **Homeopathic Medicine Camp**
-  - Personalized consultations
-  - Natural remedies
-  - Health education
-  - Preventive care
-  - Community awareness
+- **Eye Care Health Checkup** programs
 
-- **Eye Care Health Checkup**
-  - Vision testing
-  - Eye health screening
-  - Preventive education
-  - Early detection
-  - Treatment referrals
+### Contact Information
+- Address: House No. 91, Ground Floor, Kiran Vihar, Karkardooma, Delhi - 110092
+- Phone: +91 99108 32267
+- Email: info@dharatalfoundation.com
 
-### 📸 Gallery
-- Interactive image gallery showcasing foundation activities
-- Full-screen image viewer with zoom capabilities
-- Event highlights and community impact photos
+## Technology Stack
 
-### 📅 Appointment Booking
-- **Comprehensive Booking Form** with validation
-- **Date & Time Selection** with intuitive pickers
-- **Service Selection** dropdown
-- **WhatsApp Integration** for instant appointment requests
-- **Form Validation** ensuring data accuracy
+- **Framework**: Flutter 3.7.2+
+- **Language**: Dart 3.7.2+
+- **Backend**: Firebase
+- **Platform**: Android (Primary), iOS compatible
 
-### 📞 Contact & Support
-- **Direct Contact Information**
-  - Address: House No. 91, Ground Floor, Kiran Vihar, Karkardooma, Delhi - 110092
-  - Phone: +91-9910832267
-  - Email: info@dharatalfoundation.com
-- **Quick Actions**: Call, Email, Book Appointment
-- **Location Integration** with maps
-- **Social Media Links**
+## Core Dependencies
 
-### 👥 About Us
-- Foundation history and mission
-- Founder profile (A.K Jain - Former Director P.F.C, Govt. of India)
-- Vision, Mission, and Values
-- Timeline of achievements
+```yaml
+firebase_core: ^2.24.0
+firebase_analytics: ^10.7.0
+google_fonts: ^4.0.4
+url_launcher: ^6.1.10
+intl: ^0.18.1
+```
 
----
+## Project Structure
 
-## 🛠️ Technology Stack
+```
+lib/
+├── main.dart
+├── models/
+│   └── appointment.dart
+├── screens/
+│   ├── home_screen.dart
+│   ├── about_screen.dart
+│   ├── programs_screen.dart
+│   ├── gallery_screen.dart
+│   ├── book_appointment_screen.dart
+│   └── contact_screen.dart
+├── utils/
+│   ├── colors.dart
+│   ├── validators.dart
+│   └── whatsapp_helper.dart
+└── widgets/
+    ├── bottom_nav_bar.dart
+    ├── custom_app_bar.dart
+    └── custom_button.dart
+```
 
-### Core Framework
-- **Flutter** 3.7.2+ - Cross-platform mobile development
-- **Dart** 3.7.2+ - Programming language
-
-### Key Dependencies
-- **Firebase Core** - Backend infrastructure
-- **Firebase Analytics** - User analytics and insights
-- **Google Fonts** - Beautiful typography (Poppins)
-- **URL Launcher** - Deep linking and external app integration
-- **Intl** - Internationalization and date formatting
-
-### Design System
-- **Material Design 3** - Modern UI components
-- **Custom Color Palette** - Brand-consistent colors
-- **Responsive Layout** - Adaptive to different screen sizes
-- **Gradient Backgrounds** - Visually appealing UI elements
-
----
-
-## 📱 Screenshots
-
-<div align="center">
-
-| Home Screen | Programs | Gallery |
-|:-----------:|:--------:|:-------:|
-| ![Home](assets/images/foundation/banner.jpg) | ![Programs](assets/images/programs/physiotherapy.jpg) | ![Gallery](assets/images/gallery/event1.jpg) |
-
-| Appointment | Contact | About |
-|:-----------:|:-------:|:-----:|
-| 📅 | 📞 | 👥 |
-
-</div>
-
----
-
-## 🚀 Getting Started
+## Installation & Setup
 
 ### Prerequisites
-
 - Flutter SDK 3.7.2 or higher
 - Dart SDK 3.7.2 or higher
-- Android Studio / VS Code with Flutter extensions
-- Firebase project setup
-- Android SDK (for Android development)
+- Android Studio or VS Code with Flutter extension
 
-### Installation
+### Installation Steps
 
 1. **Clone the repository**
    ```bash
@@ -151,199 +126,109 @@ To become a beacon of hope and healing for communities in need, ensuring access 
    ```
 
 3. **Configure Firebase**
-   - Add your `google-services.json` file to `android/app/`
-   - Ensure Firebase project is properly configured
+   - Add `google-services.json` to `android/app/`
+   - Set up Firebase project in console
 
-4. **Run the app**
+4. **Run the application**
    ```bash
    flutter run
    ```
 
-### Build for Production
+### Production Build
 
 **Android APK:**
 ```bash
 flutter build apk --release
 ```
 
-**Android App Bundle (for Play Store):**
+**Android App Bundle:**
 ```bash
 flutter build appbundle --release
 ```
 
----
+## Appointment Booking Flow
 
-## 📁 Project Structure
+1. User navigates to Book Appointment screen
+2. Fills comprehensive form with personal details
+3. Selects required service and preferred time slot
+4. Submits appointment request
+5. Receives confirmation via integrated communication channels
 
-```
-lib/
-├── main.dart                 # App entry point
-├── models/
-│   └── appointment.dart      # Appointment data model
-├── screens/
-│   ├── home_screen.dart      # Home screen with hero section
-│   ├── about_screen.dart     # About foundation screen
-│   ├── programs_screen.dart  # Healthcare programs
-│   ├── gallery_screen.dart   # Image gallery
-│   ├── book_appointment_screen.dart  # Appointment booking
-│   └── contact_screen.dart   # Contact information
-├── utils/
-│   ├── colors.dart          # App color scheme
-│   ├── validators.dart      # Form validation
-│   └── whatsapp_helper.dart # WhatsApp integration
-└── widgets/
-    ├── bottom_nav_bar.dart   # Custom bottom navigation
-    ├── custom_app_bar.dart   # Custom app bar
-    ├── custom_button.dart    # Reusable button component
-    └── program_card.dart     # Program display card
-```
-
----
-
-## 🎨 Design Features
+## Design System
 
 ### Color Scheme
-- **Primary**: Blue (#2196F3) - Trust and healthcare
-- **Secondary**: Green (#4CAF50) - Growth and wellness
-- **Accent**: Cyan (#00BCD4) - Modern and fresh
-- **Gradients**: Smooth color transitions for visual appeal
+- Primary: Healthcare blue tones
+- Secondary: Complementary colors for accessibility
+- Neutral: Clean backgrounds for medical context
 
 ### Typography
-- **Font Family**: Poppins (via Google Fonts)
-- **Hierarchy**: Clear text sizing and weight variations
-- **Accessibility**: High contrast ratios for readability
+- Primary Font: Poppins (via Google Fonts)
+- Clear hierarchy for medical information
+- Accessible contrast ratios
 
 ### UI Components
-- **Custom Cards**: Elevated cards with shadows
-- **Gradient Backgrounds**: Modern visual elements
-- **Interactive Elements**: Smooth animations and transitions
-- **Form Validation**: Real-time feedback
-- **Responsive Design**: Adapts to different screen sizes
+- Custom form fields with validation
+- Date and time pickers
+- Service selection dropdowns
+- Responsive layout design
 
----
-
-## 🔧 Configuration
-
-### Firebase Setup
-1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
-2. Add Android app to the project
-3. Download `google-services.json`
-4. Place it in `android/app/`
-5. Configure Firebase Analytics as needed
+## Integration Features
 
 ### WhatsApp Integration
-- Phone number configured in `lib/utils/whatsapp_helper.dart`
-- Default: +91-9910832267
-- Appointment requests sent via WhatsApp Web API
+- Direct appointment requests via WhatsApp
+- Pre-filled message templates
+- Quick communication with healthcare staff
 
----
+### Contact Integration
+- One-tap calling to foundation
+- Email composition with pre-filled details
+- Location mapping integration
 
-## 📊 Features in Detail
+## Production Status
 
-### Appointment Booking System
-- **Form Fields**: Name, Phone, Email, Date, Time, Service, Notes
-- **Validation**: Real-time form validation
-- **Integration**: WhatsApp-based appointment submission
-- **User Feedback**: Success/error dialogs
+**Current Status**: Production Ready
 
-### Navigation
-- **Bottom Navigation Bar**: Easy access to all sections
-- **Indexed Stack**: Maintains state across screens
-- **Analytics**: Screen view tracking via Firebase
+### Completed Features
+- Home screen with foundation overview
+- Appointment booking system
+- Programs and services catalog
+- Contact information integration
+- Founder profile and foundation history
+- Image gallery of activities
+- Form validation and error handling
 
-### Image Gallery
-- **Grid Layout**: 2-column responsive grid
-- **Full-Screen View**: Interactive image viewer
-- **Zoom Support**: Pinch-to-zoom functionality
-- **Image Titles**: Contextual information
+### Deployment
+- Android APK generation
+- Firebase Analytics integration
+- Production-ready error handling
+- Performance optimization
 
----
+## Contact & Support
 
-## 🌐 Website Reference
+**Dharatal Foundation**  
+House No. 91, Ground Floor, Kiran Vihar, Karkardooma, Delhi - 110092  
+Phone: +91 99108 32267  
+Email: info@dharatalfoundation.com  
+Website: https://dharatalfoundation.com/
 
-**Official Website**: [https://dharatalfoundation.com/](https://dharatalfoundation.com/)
-
-The mobile app complements the foundation's website, providing a mobile-first experience for users to:
-- Access healthcare information on-the-go
-- Book appointments directly from their phones
-- View gallery and activities
-- Contact the foundation easily
-
----
-
-## 📦 Production Status
-
-✅ **Production Ready** - This application is fully developed, tested, and ready for deployment.
-
-### Current Status
-- ✅ Core features implemented
-- ✅ UI/UX polished
-- ✅ Firebase integration complete
-- ✅ Form validation in place
-- ✅ WhatsApp integration working
-- ✅ Responsive design implemented
-- ✅ Error handling implemented
-
-### Coming Soon
-- 🚀 **Google Play Store** - App will be published soon
-- 📱 iOS version (future release)
-- 🔔 Push notifications
-- 📊 Enhanced analytics
-- 🌍 Multi-language support
-
----
-
-## 🤝 Contributing
-
-This is a production application for Dharatal Foundation. For contributions or inquiries, please contact:
-- **Email**: info@dharatalfoundation.com
-- **Phone**: +91-9910832267
-
----
-
-## 📄 License
+## License
 
 This project is proprietary software developed for Dharatal Foundation. All rights reserved.
 
----
+## Acknowledgments
 
-## 👨‍💼 About the Founder
-
-**A.K Jain** - Former Director P.F.C (Govt. of India)
-
-A distinguished academic and dedicated social worker, A.K Jain embodies a legacy of excellence and service. With a remarkable career spanning from engineering at IIT Roorkee to prestigious roles in organizations like PFC and DSO, his commitment to community welfare is unparalleled.
-
----
-
-## 📞 Contact Information
-
-**Dharatal Foundation**
-
-📍 **Address**: House No. 91, Ground Floor, Kiran Vihar, Karkardooma, Delhi - 110092
-
-📱 **Phone**: +91-9910832267
-
-📧 **Email**: info@dharatalfoundation.com, jainashok1123@gmail.com
-
-🌐 **Website**: [https://dharatalfoundation.com/](https://dharatalfoundation.com/)
-
----
-
-## 🙏 Acknowledgments
-
-- Dharatal Foundation team and volunteers
-- Healthcare practitioners and staff
-- Community partners and supporters
-- All contributors to the Flutter and Firebase ecosystems
+- Dharatal Foundation healthcare team
+- Community volunteers and partners
+- Flutter and Dart development communities
+- Firebase service providers
 
 ---
 
 <div align="center">
 
-**Made with ❤️ for Dharatal Foundation**
+**Dharatal Foundation Mobile Application**  
+*Bridging healthcare gaps through technology*
 
-*Serving the underprivileged through excellence in healthcare*
-
-[⬆ Back to Top](#-dharatal-foundation-mobile-app)
+**Official Website: https://dharatalfoundation.com/**
 
 </div>
