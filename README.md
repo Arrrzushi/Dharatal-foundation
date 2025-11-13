@@ -5,11 +5,9 @@
 
 <div align="center">
 
-![App Screenshots] <img width="716" height="1600" alt="image" src="https://github.com/user-attachments/assets/1b6205e3-6037-4865-acc8-223ed7393d10" />
 
 ![Appointment Booking] <img width="716" height="1600" alt="image" src="https://github.com/user-attachments/assets/571e5645-cb90-485c-91d4-0b405b16d941" />
 
-![Founder Profile] ![Uploading image.png…]()
 
 
 </div>
